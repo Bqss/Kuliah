@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
+
+:root{
+    font-size: 10px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.5rem;
+    scroll-behavior: smooth;
+}
+
+/* styling for navbar */
+
+.container{
+    width: 100vw;
+    z-index: 3;
+    height: 9vh;
+    background-color: rgba(0, 0, 0, 0.892);
+    position: fixed
+    
+}
+.navbar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 4rem;
+    letter-spacing: 2px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.link-wrapper{
+    position: absolute;
+    right: 0;
+    font-size: 0.8em;
+    margin-right: 4em;
+}
+.navbar ul li{
+    display:inline-block;
+    margin: 0px 1.3em;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform:uppercase;
+
+}
+
+.navbar ul li a:hover{
+    color:aqua;
+    
+}
+
+
+/* styling for home */
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    display: flex;
+}
+
+
+.home .home-container{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+}
+
+.heroes-img{
+    
+    height: 94%;
+    position: absolute;
+    bottom: 0;
+    left: 5em;
+    background-color: black;
+    opacity: 0.8;
+    
+    
+}
+
+
+.desc{
+    height: 100%;
+    z-index: 1;
+    font-size: 1.7em;
+    width: 100%;
+    text-transform: capitalize;
+    font-weight: 400;
+    letter-spacing: 1px;
+    letter-spacing: 1px;
+}
+.greeting{
+    font-size: larger;
+    font-weight: 700;
+}
+
+.desc .p-wrapper > p{
+    line-height: 1.5em;
+    margin-left: 10rem;
+}
+
+.auto-type{
+    color: aqua;
+    font-weight: 500;
+}
+.quotes{
+    margin-top: 2rem;
+    font-size: 1.6rem;
+
+}
+/* Styling for about */
+.about{
+    
+    height: 100vh;
+    background-color: lightgray;
+}
+
+
+
+
+
